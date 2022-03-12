@@ -9,7 +9,7 @@ conan_basic_setup()
 
 # ---- Create test ----
 
-add_executable(${PROJECT_NAME}Tests test_csd.cpp csd.cpp)
+add_executable(${PROJECT_NAME}Tests source/test_csd.cpp source/csd.cpp)
 set_target_properties(${PROJECT_NAME}Tests PROPERTIES CXX_STANDARD 14)
 target_link_libraries(${PROJECT_NAME}Tests ${CONAN_LIBS})
 
