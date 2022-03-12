@@ -1,0 +1,6 @@
+[requires]
+fmt/8.1.1
+doctest/2.4.8
+
+[generators]
+cmake
